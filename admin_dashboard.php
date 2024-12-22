@@ -109,7 +109,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['changer_role'])) {
             <div class="space-x-6">
                 <a href="admin_dashboard.php" class="hover:text-teal-200">Utilisateurs actifs</a>
                 <a href="utilisateurs_archives.php" class="hover:text-teal-200">Comptes archivés</a>
-                <a href="nouvelles_inscriptions.php" class="hover:text-teal-200">Nouvelles inscriptions</a>
+              
                 <a href="logout.php" class="hover:text-teal-200">Se déconnecter</a>
             </div>
         </div>
