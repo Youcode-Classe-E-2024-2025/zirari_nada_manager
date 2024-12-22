@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost'; // Hôte de la base de données
-$dbname = 'zirari_manager'; // Nom de la base de données
+$dbname = 'zirari_manaager'; // Nom de la base de données
 $username = 'root'; // Nom d'utilisateur MySQL
 $password = ''; // Mot de passe MySQL
 

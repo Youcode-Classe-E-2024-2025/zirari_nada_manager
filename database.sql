@@ -1,8 +1,8 @@
 -- Création de la base de données
-CREATE DATABASE IF NOT EXISTS zirari_manager;
+CREATE DATABASE IF NOT EXISTS zirari_manaager;
 
 -- Sélection de la base de données
-USE zirari_manager;
+USE zirari_manaager;
 
 -- Table des utilisateurs
 CREATE TABLE IF NOT EXISTS utilisateurs (
