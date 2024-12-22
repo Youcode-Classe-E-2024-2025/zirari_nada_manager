@@ -26,9 +26,16 @@ composer install
 php -S localhost:8000
 ```
 
-## Connexion Initiale
+## Connexion admin
 - **Admin** : zirari@admin.com
 - **Mot de passe** : 123456
+
+# Connexion user
+-user3@gmail.com
+-mdp: 123456
+
+
+
 
 ## Sécurité
 - Authentification sécurisée
