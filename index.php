@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <!-- Formulaire de connexion -->
     <div class="max-w-md mx-auto p-8 bg-white rounded-xl shadow-2xl mt-8">
-        <form action="connexion.php" method="POST">
+        <form action="index.php" method="POST">
             <label for="email" class="block text-sm font-medium text-gray-700">Email :</label>
             <input type="email" id="email" name="email" required class="w-full p-4 mt-2 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-300">
 

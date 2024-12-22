@@ -3,7 +3,7 @@ session_start();
 
 // Vérification que l'utilisateur est connecté et a le rôle 'user'
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'user') {
-    header("Location: connexion.php");
+    header("Location: index.php");
     exit;
 }
 

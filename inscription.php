@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt->execute([$nom, $email, $mot_de_passe_hache]);
 
     // Redirection vers la page de connexion après inscription réussie
-    header("Location: connexion.php");
+    header("Location: index.php");
     exit;  // Assure-toi que le script s'arrête après la redirection
 }
 ?>
@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </button>
 
             <div class="mt-4 text-center">
-                <a href="connexion.php" class="text-green-500 text-sm hover:underline">Vous avez déjà un compte ? Connectez-vous ici.</a>
+                <a href="index.php" class="text-green-500 text-sm hover:underline">Vous avez déjà un compte ? Connectez-vous ici.</a>
             </div>
         </form>
     </div>
